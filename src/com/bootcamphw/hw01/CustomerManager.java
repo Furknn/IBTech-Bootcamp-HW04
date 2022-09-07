@@ -9,7 +9,7 @@ import java.util.List;
 public class CustomerManager {
 	private String url =   "jdbc:postgresql://localhost/bootcampdb";
     private String user = "sa";
-    private String password = "Hotel6**";
+    private String password = "123456";
 
     public boolean insert (Customer customer) throws SQLException {
         var conn= DriverManager.getConnection(url,user,password);
