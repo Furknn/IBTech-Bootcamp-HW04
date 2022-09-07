@@ -10,7 +10,7 @@ import java.util.List;
 public abstract class BaseManager<T> {
 	protected String url="jdbc:postgresql://localhost/bootcampdb";
     protected String user="sa";
-    protected String password="123321xp";
+    protected String password="123456";
 
     protected Connection connection;
 
